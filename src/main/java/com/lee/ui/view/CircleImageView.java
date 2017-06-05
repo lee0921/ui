@@ -62,6 +62,7 @@ public class CircleImageView extends View{
         mBitmap = Bitmap.createScaledBitmap(mBitmap, BITMAP_SCALE_WIDTH, BITMAP_SCALE_HEIGHT, false);
         bitmapWidth = mBitmap.getWidth();
         bitmapHeight = mBitmap.getHeight();
+
         radius = Math.min(bitmapWidth, bitmapHeight) / 2;
 
         BitmapShader shader = new BitmapShader(mBitmap, Shader.TileMode.REPEAT, Shader.TileMode.REPEAT);
