@@ -11,7 +11,7 @@ import android.view.View;
 import com.lee.ui.utils.ScreenUtils;
 
 /**
- * 正选水波纹
+ * 正弦水波纹
  *
  * y = Asin(wx+b)+h ，这个公式里：w影响周期，A影响振幅，h影响y位置，b为初相；
  */
